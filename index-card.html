@@ -37,6 +37,9 @@ footer{margin-top:58px;background:#10251f;color:#d7e3df;padding:46px 0 22px}.foo
 @media(max-width:600px){.email-actions{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}.button:hover{transform:none}}
 main{display:flex;flex-direction:column}main>.hero{order:1}main>.fact-strip{order:2}main>#email-council{order:3}main>#why{order:4}main>#solution{order:5}main>#faq{order:6}main>.final-cta{order:7}
+.hero-grid{background:var(--green);border-radius:32px;box-shadow:var(--shadow-lg);overflow:hidden;gap:0}.hero-grid>div:first-child{background:transparent;border:0;border-radius:0;box-shadow:none;padding:48px 52px;min-height:420px}.hero-copy h1{color:#fff}.hero-copy .hero-lede{color:#d7e5df}.hero-copy .eyebrow{color:var(--lime)}.hero-copy .microcopy{color:#b8ccc4}.hero-copy .button-primary{background:var(--lime);color:var(--green-dark);box-shadow:none}.hero-copy .button-secondary{background:rgba(255,255,255,.08);color:#fff;border-color:rgba(255,255,255,.28)}.hero-visual{min-height:420px;border-radius:0;box-shadow:none}.split{display:block}.split>div:first-child{position:static;background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;max-width:760px;margin-bottom:28px}.split>div:nth-child(2){max-width:900px;margin-left:clamp(0px,7vw,80px)}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-grid>div:first-child{padding:36px 32px;min-height:0}.hero-visual{min-height:320px}.split>div:nth-child(2){margin-left:0}}
+@media(max-width:600px){.hero-grid>div:first-child{padding:30px 24px}.hero-visual{min-height:280px}}
 </style>
 </head>
 <body>
